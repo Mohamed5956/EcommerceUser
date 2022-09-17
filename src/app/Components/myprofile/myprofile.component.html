@@ -1,0 +1,31 @@
+<aside class="profile-card ">
+    <header>
+        <a target="_blank" href="#">
+            <img src="assets/img/user.png" class="hoverZoomLink">
+        </a>
+
+        <h1>
+            {{userdata.name}}
+        </h1>
+
+        <h2>
+            {{userdata.email}}
+        </h2>
+
+    </header>
+
+
+    <ul class="profile-social-links">
+        <li>
+            <a type="button" (click)="del(userdata.id)">
+                <i class="fa fa-trash h1" aria-hidden="true"></i></a>
+        </li>
+        <li>
+            <a routerLink="/editprofile">
+                <i class="fa fa-pencil-square-o h1" aria-hidden="true"></i></a>
+
+        </li>
+
+    </ul>
+
+</aside>

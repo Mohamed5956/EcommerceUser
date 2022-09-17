@@ -1,0 +1,26 @@
+body {
+    background: #c8daec;
+    background: linear-gradient(to right, #bdcce0, #8ccaf4);
+}
+
+.card-img-left {
+    width: 45%;
+    /* Link to your background image using in the property below! */
+    background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
+    background-size: cover;
+}
+
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+}
+
+a {
+    font-size: medium;
+}
+
+input {
+    font-size: medium;
+    text-transform: none;
+}
